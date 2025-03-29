@@ -11,7 +11,7 @@ function App() {
     <>
       <Navbar />
 
-      <div class="absolute inset-0 -z-10 h-full w-full items-center  py-22 [background:radial-gradient(125%_125%_at_50%_10%,#43c3ee_40%,#085c8c_100%)]">
+      <div className="absolute inset-0 -z-10 h-full w-full items-center  py-22 [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#00FFFF_100%)]">
         {alert && <Alert />}
         <MainCard />
       </div>
