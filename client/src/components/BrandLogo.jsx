@@ -3,13 +3,15 @@ import React from "react";
 const BrandLogo = () => {
   return (
     <div className="flex-col">
-      <p className="text-2xl font-bold ">
-        <span className="text-3xl font-bold text-green-600">W</span>eather
-        <span className="text-2xl font-bold text-green-600">A</span>
-        <span className="text-2xl font-bold ">lerts</span>
+      <p className="text-2xl font-bold text-white">
+        <span className="text-3xl font-bold">W</span>eather
+        <span className="text-3xl font-bold text-teal-300">A</span>
+        <span className="text-2xl font-bold text-teal-300">lerts</span>
       </p>
 
-      <p className="text-sm">Accurate Forecasts, Anytime, Anywhere</p>
+      <p className="text-sm text-white">
+        Accurate Forecasts, Anytime, Anywhere
+      </p>
     </div>
   );
 };

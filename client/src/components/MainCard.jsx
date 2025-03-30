@@ -3,7 +3,7 @@ import React from "react";
 const MainCard = () => {
   return (
     <>
-      <div className=" p-2 md:p-5 container mx-auto  md:h-[350px] flex-col text-white">
+      <div className=" p-2 md:p-5 container mx-auto  md:h-[350px] flex-col text-white ">
         <div className="flex-col">
           <p className="text-xl font-semibold ">Kitchener, ON</p>
           <p className="text-sm font-semibold">Updated 6 mins ago</p>
