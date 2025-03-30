@@ -27,7 +27,7 @@ const MainCard = () => {
               <div className=" flex  md:mt-7  items-center">
                 <div className="w-1/2">
                   <img
-                    src="//cdn.weatherapi.com/weather/128x128/night/248.png"
+                    src="//cdn.weatherapi.com/weather/128x128/night/122.png"
                     alt=""
                   />
                 </div>
