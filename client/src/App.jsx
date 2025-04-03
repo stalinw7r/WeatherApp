@@ -5,6 +5,7 @@ import "./App.css";
 import Alert from "./components/Alert";
 import HourlyCard from "./components/HourlyCard";
 import ForecastSummary from "./components/ForecastSummary";
+import Footer from "./components/Footer";
 
 function App() {
   const [alert, setalert] = useState(false);
@@ -20,6 +21,7 @@ function App() {
         <ForecastSummary />
         <HourlyCard />
       </div>
+      <Footer />
     </>
   );
 }

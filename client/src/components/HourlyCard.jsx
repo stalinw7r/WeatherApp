@@ -3,12 +3,12 @@ import React from "react";
 const HourlyCard = () => {
   return (
     <div className=" p-2 md:p-5 container mx-auto  md:h-[350px] flex-col text-white ">
-      <div className="w-full rounded-2xl  p-3 flex flex-col gap-1 shadow-md shadow-teal-400">
+      <div className="w-full rounded-2xl flex-wrap  p-3 flex flex-col gap-1  shadow-md shadow-teal-400">
         <div>
           current temp <hr />
         </div>
-        <div className="flex p-3 border  snap-x ">
-          <div className="flex-col w-[500px]  items-center border snap-start">
+        <div className="flex flex-wrap justify-center items-center gap-2 p-1 border   ">
+          <div className="flex-col    items-center border ">
             <div className="text-center">1 am</div>
             <div>
               <img
