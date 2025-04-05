@@ -1,12 +1,16 @@
 import React from "react";
+import axios from "axios";
+import { useState } from "react";
 
 const MainCard = () => {
   return (
     <>
       <div className=" p-2 md:p-5 container mx-auto  md:h-[350px] flex-col text-white ">
-        <div className="flex-col">
-          <p className="text-xl font-semibold ">Kitchener, ON</p>
-          <p className="text-sm font-semibold">Updated 6 mins ago</p>
+        <div className="flex justify-between">
+          <div className="flex-col">
+            <p className="text-xl font-semibold ">Kitchener, ON</p>
+            <p className="text-sm font-semibold">Updated 6 mins ago</p>
+          </div>
         </div>
         <div className=" mt-3   gap-2 flex flex-col md:flex-row flex-wrap md:flex-nowrap">
           <div className="md:w-1/2 rounded-2xl  p-3 flex gap-1 shadow-md shadow-teal-400">
