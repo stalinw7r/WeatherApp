@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import axios from "axios";
 import { useState } from "react";
 import ForecastSummary from "./ForecastSummary";
+import Observations from "./Observations";
 
 const MainCard = (props) => {
   const [currentdata, setcurrentdata] = useState();
@@ -146,7 +147,7 @@ const MainCard = (props) => {
                         ).getDate()}
                       </p>
                       {fore.current.is_day === 0 && (
-                        <p className="bg-gray-900 text-center gap-2 flex justify-center items-center rounded-2xl p-[1px] m-[3px] text-sm">
+                        <div className="bg-gray-800 text-center gap-2 flex justify-center items-center rounded-2xl p-[1px] m-[3px] text-sm">
                           <div>
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
@@ -164,7 +165,7 @@ const MainCard = (props) => {
                             </svg>
                           </div>
                           <div>Night</div>
-                        </p>
+                        </div>
                       )}
                       {fore.current.is_day === 1 && (
                         <p className="bg-amber-300 text-center flex justify-center items-center gap-2 text-black rounded-2xl p-[1px] m-[3px] text-sm">
@@ -341,6 +342,7 @@ const MainCard = (props) => {
         )}
       </div>
       <ForecastSummary data={fore} />
+      <Observations data={fore} />
     </>
   );
 };
