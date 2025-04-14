@@ -5,7 +5,6 @@ import "./App.css";
 import Footer from "./components/Footer";
 
 function App() {
-  const [alert, setalert] = useState(false);
   const [value, setvalue] = useState("Kitchener, ON");
   const [display, setdisplay] = useState(false);
 
@@ -30,7 +29,6 @@ function App() {
               <Footer />
             </div>
           )}
-          {/* {!display && <div className="min-h-screen">thisi</div>} */}
         </div>
       </div>
     </>
